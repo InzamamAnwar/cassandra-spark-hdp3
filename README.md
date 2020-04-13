@@ -1,7 +1,7 @@
 # cassandra-spark-hdp3
 This repo will guide you in installing and integrating Cassandra
 with Spark2 on Hortonworks HDP 3.0.1. Skip installing HDP 3.0.1 if you already have.
-![alt text](./img/image_3.PNG "")
+![alt text](./img/image_3.png "")
 
 Install Hortonworks HDP 3.0.1
 ----------------------------------
