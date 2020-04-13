@@ -93,7 +93,7 @@ import org.apache.spark.sql.cassandra._
 val rdd = sc.cassandraTable("test", "kv")
 println(rdd.count)
 ```
-![alt text](./img/image_2.PNG "")
+![alt text](./img/image_1.PNG "")
 
 Retrieve data in PySpark
 ------------------------
@@ -130,4 +130,4 @@ spark-submit --conf spark.cassandra.connection.host=127.0.0.1 \
 --packages com.datastax.spark:spark-cassandra-connector_2.11:2.3.1,commons-configuration:commons-configuration:1.6 \
 CassandraSpark2.py
 ```
-![alt text](./img/image_1.PNG "")
+![alt text](./img/image_2.PNG "")
